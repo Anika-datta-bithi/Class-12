@@ -1,0 +1,30 @@
+.main{
+    width:1000px;
+    margin:auto;
+    overflow:hidden;
+    background-color:#ddd;
+}
+.box{
+    float:left;
+    background-color:teal;
+    margin-right:30px;
+    padding:20px;
+    width:273px;
+}
+.box img{
+    width:100%;
+}
+.box p{
+    line-height:24px;
+}
+.box:last-child{
+    margin-right:0;
+}
+.box a{
+    color:white;
+    text-decoration:none;
+    background-color:tomato;
+    padding:10px 30px;
+    font-size: 20px;
+    display:inline-block;
+}
